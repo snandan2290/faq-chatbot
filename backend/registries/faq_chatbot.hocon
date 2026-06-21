@@ -1,0 +1,30 @@
+{
+    "llm_config": {
+        "model_name": "gpt-4o"
+    },
+
+    "tools": [
+        {
+            "name": "FAQChatbotAgent",
+
+            "function": {
+                "description": """
+                FAQ chatbot
+                """
+            },
+
+            "instructions": """
+            You are an FAQ chatbot.
+
+            Use only the FAQ context
+            supplied in the request.
+
+            Never invent information.
+
+            If no answer exists, say:
+
+            I could not find information in the FAQ.
+            """
+        }
+    ]
+}

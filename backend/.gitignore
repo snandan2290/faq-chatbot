@@ -1,0 +1,34 @@
+# Virtual Environment
+ven/
+venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Allow example file
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
