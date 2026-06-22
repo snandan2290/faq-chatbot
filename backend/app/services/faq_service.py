@@ -1,20 +1,3 @@
-# import json
-
-
-# class FAQService:
-#     def __init__(self):
-
-#         with open("app/data/faq.json", "r", encoding="utf-8") as file:
-#             self.faqs = json.load(file)
-
-#     def find_answer(self, question: str):
-
-#         for faq in self.faqs:
-#             if faq["question"].lower() in question.lower():
-#                 return faq["answer"]
-
-#         return None
-
 import json
 
 from sentence_transformers import SentenceTransformer

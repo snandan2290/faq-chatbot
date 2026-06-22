@@ -1,5 +1,3 @@
-# app/agents/retriever_agent.py
-
 from app.services.retriever_service import RetrieverService
 
 
